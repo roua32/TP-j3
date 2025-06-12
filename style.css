@@ -1,0 +1,60 @@
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --button-bg: #f0f0f0;
+    --button-text: #000000;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+button {
+    margin-top: 1.5rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+
+body.dark {
+    --bg-color: #1e1e1e;
+    --text-color: #e0e0e0;
+    --button-bg: #333333;
+    --button-text: #ffffff;
+}
